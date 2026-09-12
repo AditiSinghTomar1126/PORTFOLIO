@@ -34,7 +34,7 @@ export function About() {
                             <div className="absolute inset-0 bg-gradient-to-br from-accent-primary to-accent-secondary rounded-2xl rotate-6 opacity-50 blur-lg" />
                             <div className="relative h-full w-full overflow-hidden rounded-2xl border-2 border-accent-primary/20 bg-surface">
                                 <Image
-                                    src="/profile.jpg"
+                                    src="/Profile.jpg"
                                     alt="Aditi Singh Tomar - Full Stack Developer from Uttar Pradesh, India specializing in Django, FastAPI, React, and Next.js"
                                     width={192}
                                     height={192}
