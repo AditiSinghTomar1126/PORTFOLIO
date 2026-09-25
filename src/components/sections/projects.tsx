@@ -6,6 +6,29 @@ import { ExternalLink, Github } from "lucide-react";
 import Image from "next/image";
 
 const projects = [
+
+     {
+        title: "NidaanAI",
+        description:
+         "Nidaan AI is an AI-driven healthcare platform designed to assist users in assessing potential disease risks through machine learning and deep learning. The system combines tabular-data classification and medical-image analysis across four prediction modules—Heart Disease, Diabetes, Breast Cancer, and Lung Cancer. I developed the ML/DL pipelines in Python and integrated them with a production-style React + Node.js architecture, enabling users to submit medical parameters/images and receive model-generated predictions through a unified web interface.",
+          tags: [
+            "React.js",
+            "Vite",
+            "Python",
+            "Machine Learning",
+            "TensorFlow",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "JWT",
+            "REST APIs",
+            ],
+        image: "/projects/nidaanai.png",
+        videoUrl: "",
+        github: "https://github.com/AditiSinghTomar1126/NidaanAI",
+        githubBackend: "https://github.com/AditiSinghTomar1126/NidaanAI",
+        demo: "https://nidaanai-two.vercel.app/",
+    },
     {
         title: "ATNexus",
         description:
